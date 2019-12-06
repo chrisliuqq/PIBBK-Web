@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-TW" class="windows">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="zh-TW">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@primer/css/dist/primer.css"  />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/app.css"  />
+    <link rel="icon" sizes="any" mask href="/assets/img/logo-256.png">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <title>PIBBK | 最好用的日文輕小說翻譯程式</title>
+    <meta property="og:title" content="PIBBK" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta name="description" content="最好用的日文輕小說翻譯程式" />
+    <meta property="og:description" content="最好用的日文輕小說翻譯程式" />
+    <link rel="canonical" href="https://pibbk.app/" />
+    <meta property="og:url" content="https://pibbk.app/" />
+    <meta property="og:site_name" content="PIBBK" />
+    <script type="application/ld+json">
+    {"headline":"PIBBK","@type":"WebSite","url":"https://pibbk.app/","name":"PIBBK","description":"最好用的日文輕小說翻譯程式","@context":"http://schema.org"}</script>
+</head>
+
+<body>
+    <header>
+        <div class="container py-6 px-3 text-center">
+            <a href="/"><img src="/assets/img/logo-256.png" alt="PIBBK" width="96" height="96"></a>
+            <ul class="nav list-style-none d-flex flex-justify-center f4">
+                <li><a class="d-inline-block m-2 current" href="/">簡介</a></li>
+                <li><a class="d-inline-block m-2" href="/release-notes.html">更新紀錄</a></li>
+                <li><a class="d-inline-block m-2" href="/doc.html">操作說明</a></li>
+                <li><a class="d-inline-block m-2" href="https://github.com/chrisliuqq/PIBBK-Lite/">Github Repository</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="hero text-center">
+        <div class="container px-3">
+            <div class="pb-6">
+                <h1 class="f00-light text-white">PIBBK</h1>
+                <p class="col-md-8 mx-auto mb-4 f3-light">
+                    專注在日文輕小說翻譯的程式，不論您是翻譯的新手或老手， PIBBK 能夠更加增進您翻譯的效率。
+                </p>
+                <a class="mx-1 my-3 f3 btn btn-large btn-desktop-purple" href="https://github.com/chrisliuqq/PIBBK-Lite/releases/download/v1.0.0/PIBBK-Lite-1.0.0.dmg" data-for-os="mac" data-download="mac">下載 macOS 版本</a>
+                <a class="mx-1 my-3 f3 btn btn-large btn-desktop-purple" href="https://github.com/chrisliuqq/PIBBK-Lite/releases/download/v1.0.0/PIBBK-Lite.Setup.1.0.0.exe" data-for-os="windows" data-download="windows">下載 Windows 版本</a>
+                <a class="mx-1 my-3 f3 btn btn-large btn-desktop-purple" href="https://github.com/chrisliuqq/PIBBK-Lite/releases/download/v1.0.0/PIBBK-Lite-1.0.0.AppImage" data-for-os="windows" data-download="windows">下載 Linux (AppImage) 版本</a>
+
+                <p><a href="https://github.com/chrisliuqq/PIBBK-Lite/releases/latest">下載其他版本</a></p>
+            </div>
+
+            <div class="d-block width-fit mx-auto mb-6" style="margin-top: 40px">
+                <img src="/assets/img/screenshot.png" alt="Screenshot of PIBBK Lite running on macOS" class="app-screenshot">
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+
+    <div style="max-width:900px" class="text-center container">
+        <div class="container d-md-flex flex-items-center">
+            <div class="flex-auto text-md-right col-md-4 p-5">
+                <a href="/assets/img/feature-replace.png" data-fancybox="gallery">
+                    <img src="/assets/img/feature-replace.png" alt="Image of Co-Authoring Feature for Desktop" style="max-width:314px">
+                </a>
+            </div>
+            <div class="flex-auto text-md-left col-md-4 p-5">
+                <h4 class="f3-light text-white">方便的名詞取代
+                </h4>
+
+                <p class="f4-light mt-2">
+                    透過「名詞取代」的功能能夠迅速將文章中內的人名、地名等特殊名詞直接翻譯成統整好的譯名，並直接取代原文。也可以透過分享檔案的方式將設定好的譯名對照分享給其他譯者，讓翻譯不同話數的作者有相同的譯名。
+                </p>
+            </div>
+        </div>
+
+        <div class="container d-md-flex flex-items-center flex-md-row-reverse mb-6">
+            <div class="flex-auto text-md-left col-md-4 p-5">
+                <a href="/assets/img/feature-highlight.png" data-fancybox="gallery">
+                    <img src="/assets/img/feature-highlight.png" alt="Image of Pull Request List and CI Check Feature" style="max-width:324px">
+                </a>
+            </div>
+
+            <div class="flex-auto text-md-left col-md-4 p-5">
+                <h4 class="f3-light text-white">特別顯示特殊段落的文字與翻譯過的名詞</h4>
+                <p class="f4-light mt-2">特別註記特殊段落的文字並用顏色將之區隔開來讓翻譯能夠更明確的區分對話與『特殊名詞』，被名詞取代的字句也會特別顯示出來。</p>
+            </div>
+        </div>
+
+        <div class="container d-md-flex flex-items-center mb-6">
+            <div class="flex-auto text-md-right col-md-4 p-5 mx-md-auto" style="max-width: 425px">
+                <a href="/assets/img/feature-translator.png" data-fancybox="gallery">
+                    <img src="/assets/img/feature-translator.png" alt="Image of Pull Request List and CI Check Feature" style="max-width:324px">
+                </a>
+            </div>
+            <div class="flex-auto text-md-left col-md-4 p-5">
+                <h4 class="f3-light text-white">
+                    多個線上翻譯網頁支援
+                </h4>
+                <p class="f4-light mt-2">
+                    遇到不清楚的原文，PIBBK 也提供了「Google 翻譯」、「百度翻譯」、「彩雲翻譯」與「有道翻譯」的線上翻譯網頁來提供您翻譯的參考。
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div style="max-width:900px" class="text-center container">
+        <div class="d-md-flex mb-md-6">
+            <div class="flex-auto d-md-flex flex-items-top text-left col-md-4 px-5 px-md-2">
+                <div class="pt-4 pt-md-0 text-center">
+                    <h4 class="h5 my-2 pt-1 text-white">
+                        支援 syosetu（成為小說家）與 pixiv 網站
+                    </h4>
+                    <p class="f4-light mt-2 mb-0">
+                        可擷取小說家與 pixiv 的小說原文，日後也有可能增加其他網站的支援。
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-auto d-md-flex flex-items-top text-left col-md-4 px-5 px-md-2">
+                <div class="pt-4 pt-md-0 text-center">
+                    <h4 class="h5 my-2 pt-1 text-white">
+                        匯入與匯出
+                    </h4>
+                    <p class="f4-light mt-2 mb-0">
+                        如果無法從網站擷取原文的話，也可以匯入 txt 檔案到原文或翻譯區塊，甚至是可以將他人翻譯的「名詞取代」由 pibbk 檔案匯入至目前檔案的名詞取代。
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-auto d-md-flex flex-items-top text-left col-md-4 px-5 px-md-2">
+                <div class="pt-4 pt-md-0 text-center">
+                    <h4 class="h5 my-2 pt-1 text-white">
+                        PIBBK Lite 是開源軟體
+                    </h4>
+                    <p class="f4-light mt-2 mb-0">
+                        PIBBK Lite 是開源軟體，可透過社群的力量讓這個軟體更好。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="max-width:700px" class="text-center container">
+        <h2 class="h3 py-4 pt-1 text-white">PIBBK 版本說明</h2>
+        <table class="table col-12">
+            <thead>
+                <tr class="border-bottom border-white-fade-85 h3">
+                    <th class="col-3 p-4"></th>
+                    <th class="col-3">Lite</th>
+                    <th class="col-3">Standard</th>
+                    <th class="col-3">Pro</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-bottom border-white-fade-15">
+                    <td class="p-3">下載原文</td>
+                    <td><svg height="32" class="octicon octicon-check" viewBox="0 0 12 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg></td>
+                    <td><svg height="32" class="octicon octicon-check" viewBox="0 0 12 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg></td>
+                    <td><svg height="32" class="octicon octicon-check" viewBox="0 0 12 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg></td>
+                </tr>
+                <tr class="border-bottom border-white-fade-15">
+                    <td class="p-3">名詞取代</td>
+                    <td><svg height="32" class="octicon octicon-check" viewBox="0 0 12 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg></td>
+                    <td><svg height="32" class="octicon octicon-check" viewBox="0 0 12 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg></td>
+                    <td><svg height="32" class="octicon octicon-check" viewBox="0 0 12 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg></td>
+                </tr>
+                <tr class="border-bottom border-white-fade-15">
+                    <td class="p-3">翻譯管理</td>
+                    <td>僅支援翻譯單話</td>
+                    <td>支援整本小說所有話數</td>
+                    <td>可管理多本小說的所有話數</td>
+                </tr>
+                <tr class="border-bottom border-white-fade-15">
+                    <td class="p-3">釋出</td>
+                    <td>現已推出</td>
+                    <td>遙遙無期開發中</td>
+                    <td>努力用 typescript 重構中</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="text-center container my-5">
+        <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/chrisliuqq"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="贊助我喝咖啡"><span style="margin-left:15px;font-size:28px !important;">贊助我喝咖啡</span></a>
+    </div>
+
+    <hr class="my-6 my-md-10 mx-auto col-md-1">
+
+    <div class="col-md-6 mx-auto text-center text-gray-lighter">
+        <p>
+            <a href="/release-notes.html" class="mr-4">更新紀錄</a>
+            <a href="/history.html" class="mr-4">緣由與尋求合作</a>
+        </p>
+    </div>
+
+    <footer class="mb-6 px-3 text-gray text-center alt-text-small">
+        <p class="copyright">© 2019 chrisliuqq All rights reserved. Template is from <a href="https://desktop.github.com/" target="_blank">Github Desktop</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</body>
+</html>

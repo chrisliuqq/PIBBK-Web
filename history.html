@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-TW" class="windows">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="zh-TW">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@primer/css/dist/primer.css"  />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/app.css"  />
+    <link rel="icon" sizes="any" mask href="/assets/img/logo-256.png">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <title>PIBBK - 緣由 | 最好用的日文輕小說翻譯程式</title>
+    <meta property="og:title" content="PIBBK" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta name="description" content="最好用的日文輕小說翻譯程式" />
+    <meta property="og:description" content="最好用的日文輕小說翻譯程式" />
+    <link rel="canonical" href="https://pibbk.app/" />
+    <meta property="og:url" content="https://pibbk.app/" />
+    <meta property="og:site_name" content="PIBBK" />
+    <script type="application/ld+json">
+    {"headline":"PIBBK","@type":"WebSite","url":"https://pibbk.app/","name":"PIBBK","description":"最好用的日文輕小說翻譯程式","@context":"http://schema.org"}</script>
+</head>
+
+<body>
+    <header>
+        <div class="container py-6 px-3 text-center">
+            <a href="/"><img src="/assets/img/logo-256.png" alt="PIBBK" width="96" height="96"></a>
+            <ul class="nav list-style-none d-flex flex-justify-center f4">
+                <li><a class="d-inline-block m-2" href="/">簡介</a></li>
+                <li><a class="d-inline-block m-2" href="/release-notes.html">更新紀錄</a></li>
+                <li><a class="d-inline-block m-2" href="/doc.html">操作說明</a></li>
+                <li><a class="d-inline-block m-2" href="https://github.com/chrisliuqq/PIBBK-Lite/">Github Repository</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="col-md-8 mx-auto">
+            <div class="p-3 mb-4 border-bottom border-translucent-white">
+                <h1 class="f1-light text-white">PIBBK 緣由</h1>
+            </div>
+
+            <div>
+                <p>會想寫 PIBBK 這個程式大約可以追溯到 2018 年初，實際上自用的第一版也在 2018 年 3 月就完成了。一直覺得市面上沒有好用且專門給翻譯日文輕小說的翻譯程式，既然身為程式設計師，當然就只好自幹一個了。</p>
+
+                <p>當時我主要還接著某個已經斷尾的坑，所以有幾個必要功能：</p>
+
+                <ol class="ml-5 my-3">
+                    <li>要能直接抓小說家原文。</li>
+                    <li>要能管理整本小說。</li>
+                    <li>能參照線上翻譯的結果</li>
+                    <li>專有名詞、人名、地名翻譯很煩，最好翻一次後就可以一直用。</li>
+                    <li>後來開了其他坑就多了要能管理多本小說的功能。</li>
+                </ol>
+
+                <p>於是乎，第一版就這樣生出來了。</p>
+
+                <div class="d-flex my-4 flex-justify-around">
+                    <div class="col-3">
+                        <a href="/assets/img/history-01.png" data-fancybox="gallery">
+                            <img class="width-fit" src="/assets/img/history-01.png" />
+                        </a>
+                        <p class="text-center">《第一版》</p>
+                    </div>
+
+                    <div class="col-3">
+                        <a href="/assets/img/history-02.png" data-fancybox="gallery">
+                            <img class="width-fit" src="/assets/img/history-02.png" />
+                        </a>
+                        <p class="text-center">《第一版》</p>
+                    </div>
+
+                    <div class="col-3">
+                        <a href="/assets/img/history-03.png" data-fancybox="gallery">
+                            <img class="width-fit" src="/assets/img/history-03.png" />
+                        </a>
+                        <p class="text-center">《第一版》</p>
+                    </div>
+                </div>
+
+                <p>雖說是第一版，但這也幾乎是後來我自用的最終版了……。這個版本一直使用到 2019 年 9 月（一年半左右），才興起了 refactor 後 release 的念頭。主要也是群內不少朋友也都在翻譯，想試著用用看。</p>
+
+                <p>但原先 code 很醜，加上只針對了 MacOS 來做調整，所以一直沒辦法讓其他人使用，這也是這次 refactor 的主要原因。這次主要用 Typescript 改寫（雖然幾乎都還是用原生 javascript 比較多）且也針對了其他作業系統作調整（也只是選單加參數與多 build 了其他作業系統的版本……）。</p>
+
+                <p>既然都包好可以讓朋友試用了，那不如乾脆丟上 github，都丟上 github 了不如做個網站好了，都做個網站好了不如也買個專用的 domain 好了…… 於是就變成現在這樣了……</p>
+
+                <p>p.s PIBBK 其實是 Pig is bitten by kitten 的縮寫，是中文「豬被貓咬」的直譯，最早出現在我漢化某部漫畫的側欄浮水印中</p>
+            </div>
+
+            <div class="p-3 mb-4 border-bottom border-translucent-white">
+                <h1 class="f1-light text-white">尋求合作</h1>
+            </div>
+
+            <div>
+                <p>其實也沒有一定要尋求合作啦……。只是如果有人想合作的話也可以跟我討論一下。可以用 pibbk (at) chrisliu.net 洽談合作事宜。</p>
+
+                <p>關於這個程式的話，單機部分的話功能差不多就如同首頁說的那樣，Standard 版加上管理單本小說，Pro 版加上管理多本小說的功能。</p>
+
+                <p>但如果考慮連上網路的話就會多很多東西可以做，例如線上共享名詞取代，小說開坑不撞坑，甚至是做成日文輕小說翻譯平台再加上贊助譯者或分潤的功能等等……。仔細想想這塊才是我的本業…… 但這塊滿燒錢的，要是有人願意提供主機負擔流量或是真的有這麼多人請我喝咖啡的話再來考慮這塊吧。</p>
+
+                <p>不過仔細想想，贊助我喝咖啡的話，我翻譯的時間就會更少 XD</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="text-center container my-5">
+        <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/chrisliuqq"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="贊助我喝咖啡"><span style="margin-left:15px;font-size:28px !important;">贊助我喝咖啡</span></a>
+    </div>
+
+    <hr class="my-6 my-md-10 mx-auto col-md-1">
+
+    <div class="col-md-6 mx-auto text-center text-gray-lighter">
+        <p>
+            <a href="/release-notes.html" class="mr-4">更新紀錄</a>
+            <a href="/history.html" class="mr-4">緣由與尋求合作</a>
+        </p>
+    </div>
+
+    <footer class="mb-6 px-3 text-gray text-center alt-text-small">
+        <p class="copyright">© 2019 chrisliuqq All rights reserved. Template is from <a href="https://desktop.github.com/" target="_blank">Github Desktop</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</body>
+</html>
